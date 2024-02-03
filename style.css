@@ -1,0 +1,112 @@
+.nav
+{
+    display: flex;
+    justify-content: space-between;
+}
+.container
+{
+    display: flex;
+}
+.left-container
+{
+    background-color: hsla(202, 100%, 96%, 0.4);
+    height: 100vh;
+    width: 50vw;
+    justify-content: center;
+    align-items: center;
+}
+.tweet-area
+{
+    background-color: #fff;
+    /* border: 1px solid ; */
+    height: 168px;
+    /* width: 521px; */
+    border-radius: 8px;
+    padding: 24px;
+    gap: 20px;
+    border: 1px solid #D6DEE5;
+}
+.tweet-area .top-container
+{
+    display: flex;
+    width: 473px;    
+    height: 126px;
+    gap: 12px;
+
+}
+.tweet-area input, .tweet-area textarea
+{
+    border: 0;
+    width: 413px;
+    height: 126px;
+    color: #91A1B7;
+    resize: none;
+    outline: none;
+
+}
+.tweet-area .bottom-container
+{
+    /* background-color: black; */
+    display: flex;
+    width: (473px);
+    height: (54px);
+    padding: 16px, 0px, 0px, 0px;
+    border: 1px, 0px, 0px, 0px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+.bottom-container button
+{
+    color: #fff;
+    background: #0041CA;
+    width: 112px;
+    height:38px;
+    padding: 8px, 24px, 8px, 24px;
+    border-radius: 100px;
+    gap: 8px;
+
+}
+.right-container
+{
+    margin: 10px;
+}
+#tweet-data 
+{
+    display: flex;
+    gap: 10px;
+    width: 464px;
+}
+.name_username
+{
+    margin-top: 5px;
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+}
+.twt .icons
+{
+    display: flex;
+    gap: 30px;
+}
+.tweet-card
+{
+    border: 1px solid #D6DEE5;
+    border-radius: 8px 8px 0px 0px;
+    width: 520px;
+}
+.tweet-card .comment-card
+{
+    display: flex;
+    /* align-items: center; */
+    margin-left: 50px;
+    border-width: 0px, 1px, 1px, 1px;
+    border-style: solid;
+    border-color: #D6DEE5;
+}
+.comment-card .icons
+{
+    display: flex;
+    gap: 30px;
+}
